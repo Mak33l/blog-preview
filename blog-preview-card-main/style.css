@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: hsl(47, 88%, 63%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 390px;
+    height: 550px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    gap: 45px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-top: 10px;
+    box-shadow: 13px 12px 9px black;
+
+}
+
+img{
+    border-radius: 14px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    font-size: 19px;
+    border-radius: 3px;
+    width: 86px;
+    height: 29px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
+.publish{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 15px;
+}
+
+.html{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 13px;
+}
+
+.avatar{
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center;
+    font-family: 'Franklin Gothic Medium';
+    gap: 14px;
+    
+}
+
+.avatar img{
+    width: 35px;
+    justify-content: flex-start;
+}
+
+.avatar p{
+    display: flex;
+    
+}
+     
